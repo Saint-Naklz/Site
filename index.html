@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>USMC FAST Airsoft</title>
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/swipebox.css">
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- js -->
+<script src="js/modernizr.custom.js"></script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+<body>
+<!-- top header -->
+<div class="banner">
+	<div class="container">
+		<div class="top-header">
+				<div class="top-left">
+					<ul>
+						<li><a href="history.html">История страйкбола</a></li>
+						<li><a href="gallery.html">Галерея</a></li>
+						</ul>
+
+				</div>
+				<div class="top-right">
+					<ul>
+						<li><a href="team.html">История команды</a></li>
+						<li><a href="about.html">Об авторе</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"></div>
+				<div class="top-logo">
+					<a href="index.html">USMC<span>Airsoft team</span>
+					<i>На главную</i>
+					</a>
+
+				</div>
+		</div>
+		<div class="banner-info">
+			<!-- responsiveslides -->
+							<script src="js/responsiveslides.min.js"></script>
+								<script>
+									$(function () {
+									 // Slideshow 4
+									$("#slider3").responsiveSlides({
+										auto: true,
+										pager: false,
+										nav: false,
+										speed: 400,
+										namespace: "callbacks",
+										before: function () {
+									$('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+										$('.events').append("<li>after event fired.</li>");
+										}
+										});
+										});
+								</script>
+			<!-- responsiveslides -->
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner-text">
+							<h3>ANYPLACE ANYTIME</h3>
+						</div>
+					</li>
+					<li>
+						<div class="banner-text">
+							<h3>ALWAYS FAITHFUL</h3>
+						</div>
+					</li>
+					<li>
+						<div class="banner-text">
+							<h3>ONCE A MARINE,</h3><h3> ALWAYS A MARINE</h3>
+							<p><!-- mb some text --></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //top header -->
+
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+</script>
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {							
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+</body>
+</html>
