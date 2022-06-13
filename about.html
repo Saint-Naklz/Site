@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USMC FAST Airsoft</title>
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- js -->
+<script src="js/modernizr.custom.js"></script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+<body>
+	
+<!-- top header -->
+<div class="banner page-head">
+	<div class="container">
+		<div class="top-header">
+			<div class="top-left">
+				<ul>
+					<li><a href="history.html">История страйкбола</a></li>
+					<li><a href="gallery.html">Галерея</a></li>
+					</ul>
+
+			</div>
+			<div class="top-right">
+				<ul>
+					<li><a href="team.html">История команды</a></li>
+					<li><a href="about.html">Об авторе</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+			<div class="top-logo">
+				<a href="index.html">USMC<span>Airsoft team</span>
+				<i>На главную</i>
+				</a>
+
+			</div>
+	</div>
+	</div>
+</div>
+<!-- //top header -->
+
+<!--start-about-->
+<div class="about two">
+		<div class="container">
+		 		<div class="about-top">
+					<div class="col-md-5 about-top-left">
+						<img src="images/portr.jpg" class="img-responsive" alt=""/>
+					</div>
+					<div class="col-md-7 about-top-right">
+						<h4>Основные данные:</h4>
+						<p>Имя: Дмитрий</p>
+						<p>Фамилия: Терещенко</p>
+						<p>Возраст: 21</p>
+						<p>Пол: М</p>
+						<p>Дата и месяц рождения: 12 апреля</p>
+						<p>Позывной: Hawkins</p>
+						<p>Роль в команде: штурмовик</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="about-top">
+					<div class="col-md-7 about-top-right">
+						<h4>Обо мне:</h4>
+						<p>Обычный, ничем не выделяющийся человек</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+		</div>	 
+</div>
+
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {							
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+</body>
+</html>

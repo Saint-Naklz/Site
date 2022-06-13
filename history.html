@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>USMC FAST Airsoft</title>
+<!--fonts-->
+<link href='//fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<!-- js -->
+<script src="js/modernizr.custom.js"></script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+<body>
+<!-- top header -->
+<div class="banner page-head">
+	<div class="container">
+		<div class="top-header">
+			<div class="top-left">
+				<ul>
+					<li><a href="history.html">История страйкбола</a></li>
+					<li><a href="gallery.html">Галерея</a></li>
+					</ul>
+
+			</div>
+			<div class="top-right">
+				<ul>
+					<li><a href="team.html">История команды</a></li>
+					<li><a href="about.html">Об авторе</a></li>
+				</ul>
+			</div>
+			<div class="clearfix"></div>
+			<div class="top-logo">
+				<a href="index.html">USMC<span>Airsoft team</span>
+				<i>На главную</i>
+				</a>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //top header -->
+<div class="contact">
+	<div class="container">
+		<div class="contact-header">
+			<h3 class="tittle">История страйкбола</h3>
+		</div>
+		<div class="contact-gds">
+			<div class="col-md-6 contact-top">
+				<p>Страйкбол (англ. airsoft) – командная игра, в которой «бой» ведется 6 мм шариками типа BB (весом от 0,12 до 0,43 г) 
+					из точных копий боевого оружия. Отличительной особенностью игры является честность. Ведь попадания от 6 мм шарики не 
+					оставляют следов на камуфляже и защитных очках (которые обязательны в этом виде спорта) — «сообщение» о попадании в участок тела полностью на совести игроков.</p>
+				<p>История появления этого спорта уходит своими корнями в послевоенную Японию, которой, после ее капитуляции запретили иметь 
+					вооруженные силы (кроме сил самообороны), и правительство этой страны нашло интересный выход из сложившейся ситуации — были 
+					созданы точные пневматические копии боевого оружия, совпадавшие по весу с реальными прототипами, обладали такой же скорострельностью, 
+					а также имели схожую схему сборки. Патроны в этом оружии заменяли 6 мм шары, изготовленные из легкого пластика.</p>
+			</div>
+			<div class="col-md-6 contact-top">
+				<img src="images/H_photoL.jpg" alt="">
+
+			</div>
+		</div>
+	</div>
+</div>
+<div class="contact">
+	<div class="container">
+		<div class="contact-gds">
+			<div class="col-md-6 contact-top" style="width:450px;height:600px;">
+				<h3>Сюда фото</h3>
+				
+			</div>
+			<div class="col-md-6 contact-top">
+				<h3 class="info">История страйкбола</h3>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+
+</body>
+</html>
