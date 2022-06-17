@@ -1,0 +1,78 @@
+body{
+	font-family: 'Open Sans', sans-serif !important;
+	margin:0;
+	padding:0;
+	background:#000;
+ }
+
+.main h3{
+        font-size:65px;
+        font-weight:300;
+        color:#fff;
+        font-family: 'Righteous', bold;
+        background:#333333
+}
+.main p{
+        font-size:30px;
+        font-weight:300;
+        color:#fff;
+        font-family: 'Righteous', bold;
+        background:#000000;
+        margin-left: 10px;
+}
+.buttns-menu{
+    margin-top: 5px;
+    display: flex;
+    height:10%;
+    justify-content: center;
+}
+.buttns{
+    font-size: 28px;
+    width: 400px;
+    height: 15%;
+    
+    text-align: center
+}
+.grid_gallery {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 704px);
+    grid-template-rows: repeat(4, 550px);
+    justify-content: center;
+    grid-gap: 75px;
+    grid-column-gap: 2%;
+}
+.gallery-text{
+    font-family:sans-serif;
+    color:white;
+    font-size: 35px;
+    text-align: center;
+
+}
+.layout{
+    background: #000000;
+    height: auto;
+    max-width: 1600px;
+    margin: auto;
+}
+.grid{
+    display: flex;
+    margin: 100px auto 0;
+    width: 1600px;
+    justify-content: center;
+}
+.about h4{
+    font-family:sans-serif;
+    color:white;
+    font-size: 55px;
+    margin-left: 25px;
+
+}
+.about p{
+    font-family:sans-serif;
+    color:white;
+    font-size: 35px;
+    margin-left: 25px;
+
+}
