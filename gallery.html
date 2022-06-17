@@ -11,6 +11,23 @@
     <meta charset = "UTF-8">
 
     <link rel ="stylesheet" href = "css/styles.css">
+    
+            <!-- js -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- js -->
+        <script src="js/modernizr.custom.js"></script>
+        <!-- start-smoth-scrolling -->
+        <script type="text/javascript" src="js/move-top.js"></script>
+        <script type="text/javascript" src="js/easing.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function($) {
+                $(".scroll").click(function(event){		
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+                });
+            });
+    </script>
+    <!-- start-smoth-scrolling -->
 
 </head>
 
